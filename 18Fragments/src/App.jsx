@@ -32,7 +32,7 @@ import { useState } from "react";
     return (
       <>
       <Container>
-        {/* if there is no items in string still we have to return heading h1 for that use ternary operators */}
+        {/* if there is no items in string still we have to return heading h1 htmlFor that use ternary operators */}
         <h1>Healthy Foods</h1>
         {/* using ternary op */}
         {/* {foodItems.length === 0 ? <h3>I am still hungry.</h3> : null} */}
@@ -46,7 +46,7 @@ import { useState } from "react";
         
         
         <FoodItems items={FoodItems}></FoodItems>
-        {/* <ul class="list-group">
+        {/* <ul className="list-group">
           {fooItems.map((item) => (
             <li key={item} className="list-group-item">
               {item}
@@ -57,10 +57,10 @@ import { useState } from "react";
 
 
 
-          {/* <li class="list-group-item">Dal</li>
-        <li class="list-group-item">Milk</li>
-        <li class="list-group-item">Salad</li>
-        <li class="list-group-item">fruits</li> */}
+          {/* <li className="list-group-item">Dal</li>
+        <li className="list-group-item">Milk</li>
+        <li className="list-group-item">Salad</li>
+        <li className="list-group-item">fruits</li> */}
         </Container>
       </>
     );

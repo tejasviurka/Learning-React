@@ -16,7 +16,7 @@ function AddTodo({ onNewItem }) {
 
   return (
     <div className="container text-center">
-      <form className="row kg-row" onSubmit={handleAddButtonClicked}>
+      <htmlhtmlForm className="row kg-row" onSubmit={handleAddButtonClicked}>
         <div className="col-6">
           <input
             type="text"
@@ -32,7 +32,7 @@ function AddTodo({ onNewItem }) {
             <BiMessageAdd />
           </button>
         </div>
-      </form>
+      </htmlhtmlForm>
     </div>
   );
 }

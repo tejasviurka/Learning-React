@@ -7,6 +7,7 @@ import TodoItemsContextProvider from "./store/todo-items-store";
 
 function App() {
   return (
+    // make todoitem as context and we can use it whenever we want it
     <TodoItemsContextProvider>
       <center className="todo-container">
         <AppName />
