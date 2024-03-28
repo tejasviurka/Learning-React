@@ -32,7 +32,7 @@ import { useState } from "react";
     return (
       <>
       <Container>
-        {/* if there is no items in string still we have to return heading h1 htmlFor that use ternary operators */}
+        {/* if there is no items in string still we have to return heading h1 htmlhtmlFor that use ternary operators */}
         <h1>Healthy Foods</h1>
         {/* using ternary op */}
         {/* {foodItems.length === 0 ? <h3>I am still hungry.</h3> : null} */}

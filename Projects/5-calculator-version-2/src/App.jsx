@@ -5,8 +5,8 @@ import { useState } from "react";
 
 
 // ui made no functioing in version 1 of calci
-// now htmlFor functioning, when we click on button it will display on screen
-// htmlFor this we have to do this, jisko bhi click ho usko bubble up krke jo bhi event ko click kiya hai usko parent ke pass bhjnna hoga
+// now htmlhtmlFor functioning, when we click on button it will display on screen
+// htmlhtmlFor this we have to do this, jisko bhi click ho usko bubble up krke jo bhi event ko click kiya hai usko parent ke pass bhjnna hoga
 // jab wo parent ke pass jayega toh wo parent usse state mai set karega or wo state screen pr ayege, when equal to clicked give overall result
 // so we need state and event handler 
 
